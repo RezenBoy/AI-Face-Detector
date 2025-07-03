@@ -6,7 +6,7 @@ from random import randrange
 
 # Load the pre-trained face detection classifier (Haar Cascade)
 # This XML file contains the data used to detect faces
-trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('cascades/haarcascade_frontalface_default.xml')
 
 # Start video capture using the default webcam (device index 0)
 webcam = cv2.VideoCapture(0)

@@ -1,12 +1,12 @@
-import cv2 # type: ignore
+import cv2
 from random import randrange
 
 #load some pretrained data on face frontals from opencv(haar cascade algorithm)
-trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('cascades\haarcascade_frontalface_default.xml')
 
 #choose an image to detect face
 # img=cv2.imread('ammy.jpg')
-img=cv2.imread('img2.jpg')
+img=cv2.imread('datasets\images\people02.jpg')
 
 #convert image to greyscaled image
 grayscaled_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

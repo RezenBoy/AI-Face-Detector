@@ -5,10 +5,10 @@ import cv2
 from random import randrange
 
 # Load the pre-trained face detector (Haar Cascade)
-trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+trained_face_data = cv2.CascadeClassifier('cascades/haarcascade_frontalface_default.xml')
 
 # Load the pre-trained smile detector
-trained_smile_data = cv2.CascadeClassifier('haarcascade_smile.xml')
+trained_smile_data = cv2.CascadeClassifier('cascades/haarcascade_smile.xml')
 
 # Initialize webcam capture (0 is the default webcam)
 webcam = cv2.VideoCapture(0)
