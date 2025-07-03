@@ -96,5 +96,5 @@ Created as part of a computer vision learning project.
 
 ---
 
-Let me know if you want a version for GitHub with badges or images.
+Creed Infotech
 ```
